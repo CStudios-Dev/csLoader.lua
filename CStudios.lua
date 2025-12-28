@@ -3,7 +3,7 @@
 local gameId = game.PlaceId
 
 if gameId == 142823291 then -- mm2
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/loader.lua/main/mm2.lua"))()
+    loadstring(game:HttpGet("https://github.com/CStudios-Dev/csLoader.lua/main/bloxfruits.lua"))()
     
 elseif gameId == 79546208627805 then -- 99nights
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/loader.lua/main/99nights.lua"))()
