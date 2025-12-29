@@ -14,7 +14,10 @@ elseif gameId == 76558904092080 then -- forge world 1
     
 elseif gameId == 129009554587176 then -- forge world 2
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/forge.lua"))()
-    
+
+elseif gameId == 131884594917121 then -- forge world 3
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/forge.lua"))()
+        
 elseif gameId == 2753915549 then -- bloxfruits sea 1
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/bloxfruits.lua"))()
     
