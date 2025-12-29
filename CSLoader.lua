@@ -1,4 +1,5 @@
--- loader.lua
+
+print("Loader executed! Current game ID:", game.PlaceId)
 
 local gameId = game.PlaceId
 
