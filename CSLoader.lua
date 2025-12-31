@@ -26,7 +26,10 @@ elseif gameId == 4442272183 then -- bloxfruits sea 2
     
 elseif gameId == 7449423635 then -- bloxfruits sea 3
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/bloxfruits.lua"))()
-    
+
+elseif gameId == 83645629621104 then -- forsaken
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/forsaken.lua"))()
+        
 else
     game.StarterGui:SetCore("SendNotification", {
         Title = "Not Supported";
