@@ -5,7 +5,7 @@ local gameId = game.PlaceId
 if gameId == 142823291 then -- mm2
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/mm2.lua"))()
     
-elseif gameId == 79546208627805 then -- 99nights
+elseif gameId == 6042520 then -- 99nights
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/99nights.lua"))()
     
 elseif gameId == 76558904092080 then -- forge world 1
