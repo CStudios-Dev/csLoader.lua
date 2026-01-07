@@ -8,7 +8,7 @@ if gameId == 142823291 then -- mm2
 elseif gameId == 6042520 then -- 99nights
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/99nights.lua"))()
     
-elseif gameId == 76558904092080 then -- forge world 1
+elseif gameId == 35489258 then -- forge world 1
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/forge.lua"))()
     
 elseif gameId == 129009554587176 then -- forge world 2
