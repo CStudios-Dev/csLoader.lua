@@ -36,9 +36,9 @@ elseif groupId == 33548380 or placeId == 33548380 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/forsaken.lua"))()
     
 -- Escape Tsunami for Brainrots
-elseif placeId == 18423793835 then
+elseif groupId == 411609583 or placeId == 411609583 or placeId == 139823084840 then
     print("✅ Loading Escape Tsunami for Brainrots script...")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/EscapeTsunamiForBrainrot.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/brainrot.lua"))()
     
 else
     print("❌ Game not supported!")
