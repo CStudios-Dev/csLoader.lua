@@ -1,10 +1,7 @@
-
 print("🔥 Carbon Loader executed!")
-
 local placeId = game.PlaceId
 local creatorType = game.CreatorType
 local groupId = (creatorType == Enum.CreatorType.Group) and game.CreatorId or nil
-
 print("📍 Place ID:", placeId)
 print("👥 Creator Type:", creatorType)
 print("🆔 Creator/Group ID:", game.CreatorId)
@@ -37,6 +34,11 @@ elseif groupId == 4372130 or placeId == 4372130 or placeId == 2753915549 or plac
 elseif groupId == 33548380 or placeId == 33548380 then
     print("✅ Loading Forsaken script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/forsaken.lua"))()
+    
+-- Escape Tsunami for Brainrots
+elseif placeId == 18423793835 then
+    print("✅ Loading Escape Tsunami for Brainrots script...")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/EscapeTsunamiForBrainrot.lua"))()
     
 else
     print("❌ Game not supported!")
