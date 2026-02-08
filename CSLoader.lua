@@ -32,7 +32,7 @@ elseif groupId == 411609583 or placeId == 139823084840 then
 elseif placeId == 10449761463 then
     print(" Loading The Strongest Battlegrounds script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/tsbg.lua"))()
-elseif groupId == 36679103 or placeId == 139004540219 then
+elseif placeId == 127742093697776 or placeId == 127746984869880 then
     print(" Loading Plants vs Brainrot script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/pvb.lua"))()
 else
