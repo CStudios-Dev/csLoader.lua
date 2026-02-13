@@ -35,9 +35,9 @@ elseif groupId == 411609583 or placeId == 139823084840 then
     print(" Loading Escape Tsunami for Brainrots script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/EscapeTsunamiForBrainrot.lua"))()
     
-elseif groupId == 33859425 or placeId == 109872658638883 or placeId == 121004146527942 or placeId == 96699032430652 then
-    print(" Loading Survive Lava for Brainrots script...")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/SurviveLavaForBrainrot.lua"))()
+elseif groupId == 876852426 or placeId == 119987266683883 then
+    print(" Loading Survive LAVA for Brainrots script...")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/survivelava.lua"))()
     
 elseif placeId == 10449761463 then
     print(" Loading The Strongest Battlegrounds script...")
