@@ -10,12 +10,15 @@ print(" Creator/Group ID:", game.CreatorId)
 if groupId == 142823291 or placeId == 142823291 or placeId == 335132309 then
     print(" Loading MM2 script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/mm2.lua"))()
+    
 elseif groupId == 6042520 or placeId == 6042520 then
     print(" Loading 99 Nights script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/99nights.lua"))()
+    
 elseif groupId == 35489258 or placeId == 35489258 then
     print(" Loading Forge script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/forge.lua"))()
+    
 elseif groupId == 4372130 
     or placeId == 4372130 
     or placeId == 2753915549 
@@ -23,18 +26,27 @@ elseif groupId == 4372130
     or placeId == 7449423635 then
     print(" Loading Blox Fruits script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/bloxfruits.lua"))()
+    
 elseif groupId == 33548380 or placeId == 33548380 then
     print(" Loading Forsaken script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/forsaken.lua"))()
+    
 elseif groupId == 411609583 or placeId == 139823084840 then
     print(" Loading Escape Tsunami for Brainrots script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/EscapeTsunamiForBrainrot.lua"))()
+    
+elseif groupId == 33859425 or placeId == 33859425 or placeId == 121004146527942 or placeId == 96699032430652 then
+    print(" Loading Survive Lava for Brainrots script...")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/SurviveLavaForBrainrot.lua"))()
+    
 elseif placeId == 10449761463 then
     print(" Loading The Strongest Battlegrounds script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/tsbg.lua"))()
+    
 elseif placeId == 127742093697776 or placeId == 127746984869880 then
     print(" Loading Plants vs Brainrot script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/pvb.lua"))()
+    
 else
     print(" Game not supported!")
     print(" Place ID:", placeId)
