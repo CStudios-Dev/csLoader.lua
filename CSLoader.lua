@@ -32,7 +32,7 @@ elseif placeId == 127742093697776 or placeId == 127746984869880 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/pvb.lua"))()
 
 elseif placeId == 4520749081 or placeId == 6381829480 or placeId == 15759515082 or placeId == 5931540094 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/king legacy.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CStudios-Dev/csLoader.lua/main/kinglegacy.lua"))()
 
 else
 	local name = "Unknown"
